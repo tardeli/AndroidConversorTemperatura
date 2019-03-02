@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Conversor de Temperatura</string>
+    <string name="app_celsius">Celsius</string>
+    <string name="app_fahrenheit">Fahrenheit</string>
+    <string name="app_kelvin">kelvin</string>
+    <string name="app_txt_de">CONVERTER DE:</string>
+    <string name="app_txt_para">PARA:</string>
+    <string name="app_hint_temperatura">Digite a temperatura</string>
+    <string name="app_btnConverter">CONVERTER</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+</resources>
