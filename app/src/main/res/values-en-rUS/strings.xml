@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Temperature Converter:</string>
+    <string name="app_txt_de" translatable="false">Convert from:</string>
+    <string name="app_txt_para" translatable="false">For:</string>
+    <string name="app_hint_temperatura" translatable="false">Enter the temperature</string>
+    <string name="app_btnConverter" translatable="false">Convert</string>
+</resources>
