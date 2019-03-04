@@ -7,5 +7,27 @@
     <string name="app_txt_para" translatable="false">Para:</string>
     <string name="app_hint_temperatura" translatable="false">Digite a temperatura</string>
     <string name="app_btnConverter" translatable="false">CONVERTER</string>
+    <string name="app_mensagem_temp_igual" translatable="false">
+        Selecione uma temperatura diferente para realizar a conversão!
+    </string>
+    <string name="app_mensagem_temp_selecaoitem" translatable="false">
+        É preciso digitar um valor e selecionar a tempepatura que deseja a conversão!
+    </string>
+    <string name="app_menu_item_sobre">Sobre</string>
+    <string name="app_conteudo_sobre">
+    \n Disciplina:
+    \n Desenvolvimento Android
+    \n Curso:
+    \n Pós-Graduação em Desenvolvimento WEB, Cloud e Dispositivos Móveis
+    \n Data: 03/03/2019
+    \n Semestre: 2 Turno: Noturno
+    \n Professor:
+    \n Roberson Junior Fernandes Alves
+    \n e-mail:
+    \n roberson.alves@unoesc.edu.br
+    \n Acadêmico:
+    \n Tardeli da Rocha
+    </string>
+
 
 </resources>

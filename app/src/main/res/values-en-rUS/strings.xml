@@ -1,8 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Temperature Converter:</string>
+    <string name="app_name">Temperature Converter</string>
+    <string name="app_celsius">Celsius</string>
+    <string name="app_fahrenheit">Fahrenheit</string>
+    <string name="app_kelvin">kelvin</string>
     <string name="app_txt_de" translatable="false">Convert from:</string>
     <string name="app_txt_para" translatable="false">For:</string>
     <string name="app_hint_temperatura" translatable="false">Enter the temperature</string>
     <string name="app_btnConverter" translatable="false">Convert</string>
+    <string name="app_mensagem_temp_igual" translatable="false">
+        Select a different temperature to perform the conversion!
+    </string>
+    <string name="app_mensagem_temp_selecaoitem" translatable="false">
+        You must enter a value and select the temperature you want to convert!
+    </string>
+    <string name="app_menu_item_sobre">About</string>
+    <string name="app_conteudo_sobre">
+    \n Disciplina:
+    \n Desenvolvimento Android
+    \n Curso:
+    \n Pós-Graduação em Desenvolvimento WEB, Cloud e Dispositivos Móveis
+    \n Data: 03/03/2019
+    \n Semestre: 2 Turno: Noturno
+    \n Professor:
+    \n Roberson Junior Fernandes Alves
+    \n e-mail:
+    \n roberson.alves@unoesc.edu.br
+    \n Acadêmico:
+    \n Tardeli da Rocha
+    </string>
 </resources>

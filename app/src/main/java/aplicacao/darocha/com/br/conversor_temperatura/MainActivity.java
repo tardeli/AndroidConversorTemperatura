@@ -1,10 +1,15 @@
 package aplicacao.darocha.com.br.conversor_temperatura;
 
+import android.content.Context;
+import android.content.Intent;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.RadioButton;
@@ -32,6 +37,26 @@ public class MainActivity extends AppCompatActivity {
         temperatura = (EditText) findViewById(R.id.editText_Temp);
     }
 
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.menu_principal, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle item selection
+        switch (item.getItemId()) {
+            case R.id.about:
+                Intent intent = new Intent(this, SobreActivity.class);
+                startActivity(intent);
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+    }
+
     protected void teste(View view){
         conversor.setTemperatura(temperatura.getText().toString());
 
@@ -53,9 +78,9 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(this, conversor.converterkelvin_F()+" ºF", Toast.LENGTH_SHORT).show();
             }
         }else if((c_1.isChecked() && c_2.isChecked()) || (f_1.isChecked() && f_2.isChecked()) || (k_1.isChecked() && k_2.isChecked())){
-            Toast.makeText(this,"Selecione uma temperatura diferente para realizar a conversão!", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, this.getText(R.string.app_mensagem_temp_igual), Toast.LENGTH_SHORT).show();
         }else{
-            Toast.makeText(this, "È preciso digitar um valor e selecionar a tempepatura que deseja a conversão!", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, this.getText(R.string.app_mensagem_temp_selecaoitem), Toast.LENGTH_SHORT).show();
         }
     }
 }
